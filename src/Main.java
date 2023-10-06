@@ -4,8 +4,10 @@ public class Main {
         float S = 0;
         for(int i = 1;i < 100;i++){
             S += (float) i /(i+2);
-            System.out.print(i);
+            int D = i + 2;
+            System.out.print(i + "/" + D);
             ++i;
+
             System.out.println("; Divide = " + S+"\n");
         }
         System.out.println(" Suma = " + S+"\n");
