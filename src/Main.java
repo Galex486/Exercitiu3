@@ -10,6 +10,6 @@ public class Main {
 
             System.out.println("; Divide = " + S+"\n");
         }
-        System.out.println(" Suma = " + S+"\n");
+        System.out.println(" Sum = " + S+"\n");
     }
 }
